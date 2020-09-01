@@ -1,0 +1,4 @@
+
+User-agent: *
+Allow: /
+Host: lp4u.com.ua

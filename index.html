@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="qb-xKm8juRUCq7Fn-eGdr8FTMFh5CuaDqYhMSAVZKBA" />
+    <meta name="yandex-verification" content="1bbd1a2f7cd0224b" />
+
+    <title>Разработка Landing page на основании исследований | Лендинг пейдж премиум-класса</title>
+    <meta name="description" content="Разработка эффективных Landing Page  под ключ. Лучшие ценовые предложения в Украине. Закажите Landing прямо сейчас!">
+    <meta name="keywords" content="Landing page, Landing, лендинг, лэндинг, лендинг пейдж, посадочная страница, создание лендинга, разработка landing page, лендинг это, одностраничник, landing page это, продающий лендинг, примеры лендингов, лендинг пейдж это, landing page киев, сайт одностраничник, что такое лендинг, увеличение продаж">
+    <meta name="author" content="lp4u.com.ua">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WGSV62R');
+gtag('config', 'AW-814979587');
+</script>
+<!-- End Google Tag Manager -->
+
+<!-- Event snippet for Возможная продажа conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-814979587/XI7oCMnnp4cBEIO0zoQD',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+
+</head>
+    <div id="project" class="modal fade" tabindex="-1" role="dialog">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-dialog" role="document">
+
+        </div>
+        <div class="modal-footer">
+            <span class="project__text">
+                Понравилась работа? Оставьте заявку и мы просчитаем ваш заказ!
+            </span>
+            <button class="btn btn-white btn-project" data-toggle="modal"
+                    data-target="#feedback" data-title="Оставить заявку">Оставить заявку</button>
+        </div>
+    </div>
+    <div id="success" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                    <div class="clearfix"></div>
+                    <img class="modal-img" src="imgs/success-feedback.png" alt="">
+                    <h4 class="modal-title">Спасибо!</h4>
+                    <p class="modal-subtitle">Ваша заявка принята, наши менеджеры свяжутся с<br> вами в самое ближайшее время.
+                        <br><br>
+                        Хорошего дня! :)</p>
+                </div>
+                <div class="modal-body">
+                    <button class="btn btn-white btn-success-close" data-dismiss="modal" aria-label="Close">Закрыть окно</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="feedback" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Оставьте заявку</h4>
+                    <p class="modal-subtitle">Оставьте заявку и наши менеджеры свяжутся с<br> вами в кратчайшие сроки</p>
+                </div>
+                <div class="modal-body">
+                    <form class="ajax-form">
+                        <div class="form-group">
+                            <input class="form-control input" type="text" id="username" name="username" value="">
+                            <label for="username" class="placeholder">Ваше имя</label>
+                            <span class="error-message">Укажите, пожалуйста, Ваше имя</span>
+                            <span class="btn-clear"></span>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control input" type="text" id="phone" name="phone" value="">
+                            <label for="phone" class="placeholder">Ваш телефон</label>
+                            <span class="error-message">Укажите, пожалуйста, корректный телефон</span>
+                            <span class="btn-clear"></span>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control input" type="text" id="email" name="email" value="">
+                            <label for="email" class="placeholder">Ваш email</label>
+                            <span class="error-message">Укажите, пожалуйста, Ваш e-mail</span>
+                            <span class="btn-clear"></span>
+                        </div>
+                        <input type="hidden" name="type" value="Оставить заявку">
+                        <input type="hidden" name="state" value="">
+                        <button class="btn btn-gradient modal-btn" type="submit" onclick="gtag_report_conversion">Оставить заявку</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <p class="modal-footer__text">Или позвоните нам по номеру<br>+38 063 107 07 18</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__logo logo">
+                <img class="logo__img" src="imgs/logo.png" alt="Разработка Landing page на основании исследований">
+            </div>
+            <button id="submitApplicationButton" class="btn btn-feedback-1 header__btn-feedback-left" data-toggle="modal"
+                    data-target="#feedback" data-title="Оставить заявку">Оставить заявку</button>
+            <button class="header__btn-feedback-right" data-toggle="modal"
+                    data-target="#feedback" data-title="Оставить заявку"></button>
+            <h1 class="header__title">
+                Разработка Landing page<br>
+                <span class="header__subtitle">на основании исследований</span>
+            </h1>
+            <p class="header__clients-title">Среди наших клиентов уже</p>
+            <div class="header__client header-clients">
+                <img class="header-clients__item" src="imgs/ico-client-1.png">
+                <img class="header-clients__item" src="imgs/ico-client-2.png">
+                <img class="header-clients__item" src="imgs/ico-client-3.png">
+            </div>
+            <p class="header__client-more">
+                и еще <span class="header__client-more-red">более 150 клиентов</span>
+                за <span class="header__client-more-red">6 лет на рынке</span>
+            </p>
+            <div class="header__btns-wrap">
+                <button class="btn btn-white header__btn-work-example">Посмотреть примеры работ</button>
+                <button class="btn btn-gradient header__btn-client" data-toggle="modal"
+                        data-target="#feedback" data-title="Стать нашим клиентом">Стать нашим клиентом</button>
+            </div>
+        </div>
+    </header>
+    <section class="max-profit">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-push-4">
+                    <img class="max-profit__img" src="imgs/max-profit.jpg" alt="Надоели огромные счета за рекламу которая не приносит прибыли?">
+                </div>
+                <div class="max-profit__question-block question-block">
+                    <h3 class="question-block__title">Надоели огромные счета за рекламу которая не приносит прибыли?</h3>
+                    <p class="question-block__text">Landing page - это самый мощный инструмент интернет-торговли,
+                        вы получите максимум прибыли с каждой потраченной гривны.</p>
+                    <button class="btn btn-white question-block__btn" data-toggle="modal"
+                            data-target="#feedback" data-title="Получить максимум прибыли">Получить максимум прибыли</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ideal-for">
+        <div class="container">
+            <h2 class="ideal-for__title">Landing page идеально подходит для:</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="ideal-for__item">
+                        <span class="ideal-for__icon ideal-for__icon_1"></span>
+                        <h4 class="ideal-for__item-title">Розничной и оптовой торговли</h4>
+                        <p class="ideal-for__item-text">
+                            У вас новый товар или хотите в разы увеличить продажи сезонного товара, тогда Landing page -
+                            это то что вам нужно!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ideal-for__item">
+                        <span class="ideal-for__icon ideal-for__icon_2"></span>
+                        <h4 class="ideal-for__item-title">Сферы услуг</h4>
+                        <p class="ideal-for__item-text">
+                            Нужен стабильный поток новых заказчиков? Landing page справится с этой задачей на отлично!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ideal-for__item">
+                        <span class="ideal-for__icon ideal-for__icon_3"></span>
+                        <h4 class="ideal-for__item-title">мобильных Приложений</h4>
+                        <p class="ideal-for__item-text">
+                            Разрабатываете новое приложение? Landing page поможет собрать аудиторию лояльных ползователей
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ideal-for__item">
+                        <span class="ideal-for__icon ideal-for__icon_4"></span>
+                        <h4 class="ideal-for__item-title">Мероприятий или обучающих программ</h4>
+                        <p class="ideal-for__item-text">
+                            Landing page сможет дать исчерпывающую информацию о вашем мероприятии или курсе
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="best-result-and-with-mobile-wrap">
+        <section class="best-result">
+            <div class="container">
+                <h2 class="best-result__title">Мы используем<br>
+                    <span class="best-result__title-red">27 различных инструментов и техник</span><br>
+                    что бы добиться максимальных результатов</h2>
+                <button class="btn btn-gradient best-result__btn" data-toggle="modal"
+                        data-target="#feedback" data-title="Получить максимальный результат">получить максимальный результат</button>
+            </div>
+        </section>
+        <section class="with-mobile" id="mobile">
+            <div class="container">
+                <div class="with-mobile__ring ring">
+                    <img class="ring__img" src="imgs/chart.png" alt="">
+                    <div class="with-mobile__info">
+                        <h4 class="with-mobile__title">Более 50%</h4>
+                        <p class="with-mobile__text">
+                            пользователей используют<br> мобильный телефон для поиска в интернете. Именно поэтому мы делаем
+                            Landing page с мобильной версией
+                        </p>
+                        <button class="btn btn-gradient with-mobile__btn" data-toggle="modal"
+                                data-target="#feedback" data-title="Заказать landing page c мобильной версией">
+                            Заказать landing page c мобильной версией</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="portfolio-and-how-it-works-wrap">
+            <section class="portfolio" id="portfolio">
+                <div class="container">
+                    <h2 class="portfolio__title">Примеры наших работ</h2>
+                    <div class="portfolio__items">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="portfolio__item portfolio-item" data-image="project-1.jpg">
+                                    <img class="portfolio-item__img visible-xs-block visible-sm-block"
+                                         src="imgs/portfolio-1-big.jpg" alt="Adidas">
+                                    <img class="portfolio-item__img visible-md-block visible-lg-block" src="imgs/portfolio-1.jpg" alt="Adidas">
+                                    <div class="portfolio-item__info-wrap adidas-wrap">
+                                        <div class="portfolio-item__info">
+                                            <h4 class="portfolio-item__title">Adidas</h4>
+                                            <p class="portfolio-item__text">Промостраница для акции</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="portfolio__item portfolio-item" data-image="project-2.jpg">
+                                    <img class="portfolio-item__img visible-xs-block visible-sm-block" src="imgs/portfolio-2-big.jpg" alt="Fanta">
+                                    <img class="portfolio-item__img visible-md-block visible-lg-block" src="imgs/portfolio-2.jpg" alt="Fanta">
+                                    <div class="portfolio-item__info-wrap fanta-wrap">
+                                        <div class="portfolio-item__info">
+                                            <h4 class="portfolio-item__title">Fanta</h4>
+                                            <p class="portfolio-item__text">Промостраница для акции</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="portfolio__item portfolio-item" data-image="project-3.jpg">
+                                    <img class="portfolio-item__img" src="imgs/portfolio-3.jpg" alt="Tandyr">
+                                    <div class="portfolio-item__info-wrap tandyr-wrap">
+                                        <div class="portfolio-item__info">
+                                            <p class="portfolio-item__text">Landing page<br>
+                                                Продажа тандыров</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio__item portfolio-item" data-image="project-5.jpg">
+                                    <img class="portfolio-item__img" src="imgs/portfolio-5.jpg" alt="Auto service">
+                                    <div class="portfolio-item__info-wrap auto-wrap">
+                                        <div class="portfolio-item__info">
+                                            <p class="portfolio-item__text">Привлечение клиентов для СТО и мастеров</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="portfolio__item portfolio-item">
+                                    <img class="portfolio-item__img visible-xs-block visible-sm-block" src="imgs/portfolio-1-big.jpg" alt="Adidas">
+                                    <img class="portfolio-item__img visible-md-block visible-lg-block" src="imgs/portfolio-1.jpg" alt="Adidas">
+                                    <div class="portfolio-item__your-lp your-lp">
+                                        <div class="your-lp__info-wrap">
+                                            <h4 class="your-lp__title">Место для вашего лендинга!</h4>
+                                            <button class="btn btn-white your-lp__btn" data-toggle="modal"
+                                                    data-target="#feedback" data-title="Оставить заявку на разработку">
+                                                Оставить заявку на разработку</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="portfolio__item portfolio-item" data-image="project-6.jpg">
+                                            <img class="portfolio-item__img" src="imgs/portfolio-6.jpg" alt="Natural cosmetic">
+                                            <div class="portfolio-item__info-wrap cosmetic-wrap">
+                                                <div class="portfolio-item__info">
+                                                    <p class="portfolio-item__text">Продажа натуральной косметики</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="portfolio__item portfolio-item" data-image="project-7.jpg">
+                                            <img class="portfolio-item__img" src="imgs/portfolio-7.jpg" alt="Car electrician">
+                                            <div class="portfolio-item__info-wrap electro-wrap">
+                                                <div class="portfolio-item__info">
+                                                    <p class="portfolio-item__text">Услуги<br>
+                                                        автоэлектрика</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="portfolio__item portfolio-item" data-image="project-4.jpg">
+                                <div class="portfolio__item portfolio-item" data-image="project-4.jpg">
+                                    <img class="portfolio-item__img visible-xs-block visible-sm-block" src="imgs/portfolio-4-big.jpg" alt="Feather shawl">
+                                    <img class="portfolio-item__img visible-md-block visible-lg-block" src="imgs/portfolio-4.jpg" alt="Feather shawl">
+                                    <div class="portfolio-item__info-wrap shawl-wrap">
+                                        <div class="portfolio-item__info">
+                                            <p class="portfolio-item__text">Продажа<br> Оренбургских<br> пуховых платков</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="price" id="price">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 price-info">
+                            <h2 class="price__title">Стоимость услуг: <span>$600</span></h2>
+                            <p class="price__text">
+                                У нас нет пакетов, мы не продаем вам ничего лишнего,<br /> 
+                                наше предложение включает все необходимое<br />
+                                для того что бы дать мощный толчок вашему бизнесу
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="how-it-works" id="how-we-works">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-lg-4">
+                            <h2 class="how-it-works__title">Как мы работаем:</h2>
+                            <p class="how-it-works__text">
+                                На каждом этапе с вашим проектом работает команда профессионалов с многолетним опытом.
+                                На протяжении всего процесса, наши специалисты плотно сотрдничают с вами и как результат,
+                                вы всегда знаете на каком этапе ваш проект
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="how-it-works__chart-wrap">
+                            <img class="how-it-works__chart" src="imgs/chart-how-it-works.png" alt="">
+                            <span class="how-it-works__chart-tooltip how-it-works__chart-tooltip-1">Анализ нишы</span>
+                            <span class="how-it-works__chart-tooltip how-it-works__chart-tooltip-2">Исследования</span>
+                            <span class="how-it-works__chart-tooltip how-it-works__chart-tooltip-3">Разработка УТП<br> и триггеров</span>
+                            <span class="how-it-works__chart-tooltip how-it-works__chart-tooltip-4">Продающий<br> копирайтинг</span>
+                            <span class="how-it-works__chart-tooltip how-it-works__chart-tooltip-5">Разработка<br> прототипа</span>
+                            <span class="how-it-works__chart-tooltip how-it-works__chart-tooltip-6">Уникальный<br> дизайн</span>
+                            <span class="how-it-works__chart-tooltip how-it-works__chart-tooltip-7">Программирование</span>
+                            <span class="how-it-works__chart-tooltip how-it-works__chart-tooltip-8">Настройка рекламной<br> компании и запуск</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer" id="price">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-sm-push-6 col-md-5 col-md-push-7">
+                        <h3 class="footer__title">
+                            Окупаемость наших Landing page<br>
+                            <span class="footer__title-red">от 3х дней</span>
+                            <span class="footer__title-star">*</span>
+                        </h3>
+                        <button class="btn btn-gradient footer__btn" data-toggle="modal"
+                                data-target="#feedback" data-title="Узнать стоимость Landing page">Узнать стоимость Landing page</button>
+                    </div>
+                </div>
+                <div class="footer__contacts contacts">
+                    <p class="contacts__text">Остались вопросы?</p>
+                    <a href="tel:+380631070718" class="contacts__phone">+00 (000) 000 00 00</a>
+                    <a href="mailto:mail@lp4u.com.ua" class="contacts__email">mail@lp4u.com.ua</a>
+                </div>
+                <p class="footer__copyright">
+                    * - срок зависит от вашего среднего чека и работы ваших менеджеров по продажам<br>
+                    2010-2017 © lp4u.com.ua Все права защищены.
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/viewportchecker.js"></script>
+
+<script type="text/javascript">
+document.getElementById('submitApplicationButton').click(function() {
+alert('Нажата кнопка');
+
+});
+
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-viewport-checker/1.8.8/jquery.viewportchecker.min.js"></script>
+<script>
+jQuery(document).ready(function() {
+    jQuery('.ideal-for__item').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated bounceInUp', // Class to add to the elements when they are visible
+        offset: 100
+       });
+
+    jQuery('.post2-h').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated fadeInDown', // Class to add to the elements when they are visible
+        offset: 100
+       });
+
+});
+</script>
+
+</body>
+</html>
